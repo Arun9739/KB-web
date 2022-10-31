@@ -28,6 +28,10 @@
         <!-- Responsive CSS -->
         <link rel="stylesheet" href="css/responsive.css">
 		 
+		<script src="https://code.jquery.com/jquery-3.5.1.js" ></script>
+			  
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
 		
         <title>Kannada Balaga </title>
 
@@ -43,39 +47,50 @@
 
         <!-- Start Navbar Area -->
 		<header id="header" class="header-area">
-			<div class="elkevent-mobile-nav">
-				<div class="logo">
-					<a href="index.html"><img src="img/logo.jpeg" alt="logo"></a>
-				</div>
-			</div>
-
-			<div class="elkevent-nav is-sticky">
-				<div class="container">
-					<nav class="navbar navbar-expand-md navbar-light">
-						<a class="navbar-brand" href="index.html"><img src="img/logo.jpeg" alt="logo" width = "75" height = "75"></a>
-
-						<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent" style="display: block;">
-							<ul class="navbar-nav ms-auto">
-								<li class="nav-item"><a href="index.html" class="nav-link active"><b>ಮುಖ್ಯಪುಟ</b> </a></li>
-								
-								<li class="nav-item"><a href="about.html" class="nav-link"><b>ನಮ್ಮ ಬಗ್ಗೆ</b></a></li>
-
-								<li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
-
-								<li class="nav-item"><a href="events.html" class="nav-link"><b>ಕಾರ್ಯಕ್ರಮಗಳು </b></a></li>
-							</ul>
-
-							<div class="others-option">
-								<ul>
-									<li>
-										<a href="login.html" class="btn btn-primary">Register</a>
-									</li>
-								</ul>
-							</div>
+			<nav class=" navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-lg-0 ">
+  
+        		<a class="navbar-brand" href="#">
+            		<!-- Add logo with size of 90*80 -->
+            		<img src ="img/logo.jpeg" width="90" height="80" alt="">
+        		</a>
+          
+        		<button class="navbar-toggler" type="button"
+                	data-toggle="collapse" 
+                	data-target="#navbarResponsive"
+                	aria-controls="navbarResponsive" 
+                	aria-expanded="false" 
+                	aria-label="Toggle navigation">
+                  
+                	<span class="navbar-toggler-icon"></span>
+        		</button>
+  
+        		<div class="collapse navbar-collapse" id="navbarResponsive">
+            		<ul class="navbar-nav ms-auto">
+                		<li class="nav-item active">
+                    		<a class="nav-link" href="#"><b>ಮುಖ್ಯಪುಟ</b>
+                    		</a>
+                		</li>
+                		
+						<li class="nav-item">
+                    		<a class="nav-link" href="about.html"><b>ನಮ್ಮ ಬಗ್ಗೆ</b></a>
+                		</li>
+                		
+						<li class="nav-item">
+                    		<a class="nav-link" href="gallery.html">Gallery</a>
+                		</li>
+                
+						<li class="nav-item">
+                    		<a class="nav-link" href="events.html"><b>ಕಾರ್ಯಕ್ರಮಗಳು</b></a>
+                		</li>
+						
+						<div class="others-option">
+							<li>
+								<a href="login.html" class="btn btn-primary">Register</a>
+							</li>	
 						</div>
-					</nav>
-				</div>
-			</div>
+            		</ul>
+        		</div>
+    		</nav>
 		</header>
         <!-- End Navbar Area -->
         
@@ -86,7 +101,7 @@
                     <div class="container">
                         <div class="main-banner-content">
 							<p>Are you <span>ready</span> to attend?</p>
-							<h1>ಕನ್ನಡ ಬಳಗದ<span> ರಾಜ್ಯೋತ್ಸವ  </span> <br> ಸಂಭ್ರಮ  <b>2</b><b>0</b><b>2</b><b>2</b></h1>
+							<h1>ಕನ್ನಡ ಬಳಗದ<span> ಸಿರಿಗನ್ನಡ   </span> <br> ಸಂಭ್ರಮ  <b>2</b><b>0</b><b>2</b><b>2</b></h1>
 							<ul>
 								<li>KLS Gogte Institute of Technology</li>
 								<li>01 Nov, 2022</li>
@@ -130,7 +145,6 @@
 
 					<div class="col-lg-6">
 						<div class="about-image">
-							<img src="img/img-1.jpg" class="about-img1" alt="image">
 
 							<img src="img/img-2.jpg" class="about-img2" alt="image">
 
